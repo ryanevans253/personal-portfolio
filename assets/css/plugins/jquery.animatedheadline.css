@@ -22,9 +22,15 @@
 .ah-words-wrapper b {
   display: inline-block;
   position: absolute;
-  white-space: nowrap;
+  white-space: normal;
   left: 0;
   top: 0;
+}
+
+@media only screen and (min-width: 900px) {
+  .ah-words-wrapper b {
+    white-space: nowrap;
+  }
 }
 .ah-words-wrapper b.is-visible {
   position: relative;
