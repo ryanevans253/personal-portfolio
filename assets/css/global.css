@@ -2161,7 +2161,7 @@ a:focus {
 }
 
 @media only screen and (max-width: 1200px) {
-  .cover-bg-img {
+  .cover-bg-img.offset-left-25 {
     object-position: 25%;
   }
 }
