@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="" />
+    <meta name="description" content="Ryan Evans Portfolio Website" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <link rel="icon" href="assets/img/logo-32x32.png" sizes="32x32" />
@@ -14,22 +14,22 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body class="v-dark dsn-ajax">
+  <body class="v-dark bg-dots dsn-ajax">
     <div id="dsn_preloader" class="preloader">
       <div class="dsnload p-absolute">
         <span class="dsnload__row">
           <span class="dsnload__img">
             <img
-              src="assets/img/logo-light.png"
+              src="assets/img/re-logo-light.png"
               class="logo-dark"
-              alt="Ryan Evans"
+              alt="re-logo"
               decoding="async"
               loading="lazy"
             />
             <img
-              src="assets/img/logo.png"
+              src="assets/img/re-logo-dark.png"
               class="logo-light"
-              alt="Ryan Evans"
+              alt="re-logo"
               decoding="async"
               loading="lazy"
             />
@@ -38,16 +38,16 @@
         <span class="dsnload__row dsnload__row--sibling">
           <span class="dsnload__img">
             <img
-              src="assets/img/logo-light.png"
+              src="assets/img/re-logo-light.png"
               class="logo-dark"
-              alt="Ryan Evans"
+              alt="re-logo"
               decoding="async"
               loading="lazy"
             />
             <img
-              src="assets/img/logo.png"
+              src="assets/img/re-logo-dark.png"
               class="logo-light"
-              alt="Ryan Evans"
+              alt="re-logo"
               decoding="async"
               loading="lazy"
             />
@@ -56,16 +56,16 @@
         <span class="dsnload__row dsnload__row--sibling">
           <span class="dsnload__img">
             <img
-              src="assets/img/logo-light.png"
+              src="assets/img/re-logo-light.png"
               class="logo-dark"
-              alt="Ryan Evans"
+              alt="re-logo"
               decoding="async"
               loading="lazy"
             />
             <img
-              src="assets/img/logo.png"
+              src="assets/img/re-logo-dark.png"
               class="logo-light"
-              alt="Ryan Evans"
+              alt="re-logo"
               decoding="async"
               loading="lazy"
             />
@@ -74,16 +74,16 @@
         <span class="dsnload__row dsnload__row--sibling">
           <span class="dsnload__img">
             <img
-              src="assets/img/logo-light.png"
+              src="assets/img/re-logo-light.png"
               class="logo-dark"
-              alt="Ryan Evans"
+              alt="re-logo"
               decoding="async"
               loading="lazy"
             />
             <img
-              src="assets/img/logo.png"
+              src="assets/img/re-logo-dark.png"
               class="logo-light"
-              alt="Ryan Evans"
+              alt="re-logo"
               decoding="async"
               loading="lazy"
             />
@@ -142,26 +142,23 @@
         <div class="main-logo">
           <a
             href="index.html"
-            data-dsn-text="Ryan Evans"
+            data-dsn-text="HOME"
             class="custom-logo-link main-brand effect-ajax"
             rel="home"
             aria-current="page"
           >
             <img
-              src="assets/img/logo-light.png"
+              src="assets/img/re-logo-light.png"
               class="custom-logo logo-light"
-              alt="Ryan Evans"
+              alt="re-logo"
             />
             <img
-              src="assets/img/logo.png"
+              src="assets/img/re-logo-dark.png"
               class="custom-logo logo-dark"
-              alt="Ryan Evans"
+              alt="re-logo"
             />
           </a>
         </div>
-
-        <div class="bg-load background-main"></div>
-
         <svg
           width="100%"
           height="100%"
@@ -252,74 +249,59 @@
           >
             <div class="box-form">
               <h2 class="title-h2">
-                SEND ME AN EMAIL AND LET'S START </br>
+                SEND ME A MESSAGE AND LET'S START </br>
             A CONVERSATION 
               </h2>
               <!-- <p class="mt-10"></p> -->
               <div class="dsn-form mt-20 form-box d-flex flex-column">
                 <form
-                  id="contact-form"
                   class="form w-100"
-                  method="post"
-                  action="contact.php"
-                  data-toggle="validator"
-                >
-                  <div class="messages"></div>
-                  <div class="input__wrap controls">
-                    <div class="d-grid grid-md-2" data-dsn-gap="0px 30px">
-                      <div class="form-group dsn-up">
-                        <div class="entry-box">
-                          <input
-                            id="form_name"
-                            type="text"
-                            name="name"
-                            placeholder="Name"
-                            required="required"
-                            data-error="name is required."
-                          />
-                        </div>
-                        <div class="help-block with-errors"></div>
-                      </div>
-                      <div class="form-group dsn-up">
-                        <div class="entry-box">
-                          <input
-                            id="form_email"
-                            type="email"
-                            name="email"
-                            placeholder="Email Address"
-                            required="required"
-                            data-error="Valid email is required."
-                          />
-                        </div>
-                        <div class="help-block with-errors"></div>
-                      </div>
-                    </div>
-
+                  action="https://formspree.io/f/moqgdwje"
+                  method="POST"
+              >
+                <div class="messages"></div>
+                <div class="input__wrap controls">
+                  <div class="d-grid grid-md-2" data-dsn-gap="0px 30px">
                     <div class="form-group dsn-up">
                       <div class="entry-box">
-                        <textarea
-                          id="form_message"
-                          class="form-control"
-                          name="message"
-                          rows="7"
-                          placeholder="Tell me how I can help!"
-                          required="required"
-                          data-error="Please,leave us a message."
-                        ></textarea>
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Name"
+                        />
                       </div>
                       <div class="help-block with-errors"></div>
                     </div>
+                    <div class="form-group dsn-up">
+                      <div class="entry-box">
+                        <input type="email" name="email" placeholder="Email">
 
-                    <div class="d-flex dsn-up">
-                      <div
-                        class="image-zoom move-circle border-color-default border-style border-rdu"
-                        data-dsn="parallax"
-                      >
-                        <input type="submit" value="Send Message" />
                       </div>
+                      <div class="help-block with-errors"></div>
                     </div>
                   </div>
-                </form>
+
+                  <div class="form-group dsn-up">
+                    <div class="entry-box">
+                      <textarea
+                        name="message"
+                        rows="7"
+                        placeholder="Tell me how I can help!"
+                      ></textarea>
+                    </div>
+                    <div class="help-block with-errors"></div>
+                  </div>
+
+                  <div class="d-flex dsn-up">
+                    <div
+                      class="image-zoom move-circle border-color-default border-style border-rdu"
+                      data-dsn="parallax"
+                    >
+                      <button type="submit" >Send</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
               </div>
             </div>
             <div class="box-info p-30 background-theme">
@@ -416,27 +398,27 @@
           >
             <div class="d-grid grid-md-4 grid-sm-2">
               <div class="grid-col-1">
-                <!-- <div class="dsn-logo main-logo">
+                <div class="dsn-logo main-logo">
                   <div class="main-logo">
                     <a
-                      href="https://dsngrid.com/Ryan Evans/"
-                      data-dsn-text="Ryan Evans"
+                      href="index.html"
+                      data-dsn-text="HOME"
                       class="custom-logo-link main-brand effect-ajax"
                       rel="home"
                     >
                       <img
                         class="custom-logo logo-light"
-                        src="assets/img/logo-light.png"
+                        src="assets/img/re-logo-light.png"
                         alt="Ryan Evans"
                       />
                       <img
                         class="custom-logo logo-dark"
-                        src="assets/img/logo.png"
+                        src="assets/img/re-logo-dark.png"
                         alt="Ryan Evans"
                       />
                     </a>
                   </div>
-                </div> -->
+                </div>
                 <ul class="dsn-socials box-social mt-20">
                   <li>
                     <a

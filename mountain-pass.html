@@ -8,7 +8,7 @@
     <link rel="icon" href="assets/img/logo-32x32.png" sizes="32x32" />
     <link rel="icon" href="assets/img/logo-192x192.png" sizes="192x192" />
 
-    <title>Real Estate Dashboard</title>
+    <title>WA Mountain Pass</title>
 
     <link href="assets/css/plugins.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -177,25 +177,26 @@
       <!-- ========== Header  ========== -->
       <header
         id="dsn_header"
-        class="dsn-header-animation show-box-shadow dsn-container section-padding v-dark-head"
+        class="dsn-header-animation right-img dsn-container section-padding v-dark-head-mobile"
       >
         <div class="entry-header p-relative over-hidden">
           <div
-            class="p-absolute dsn-hero-parallax-img over-hidden z-index-1 full-width"
             id="hero_image"
+            class="p-absolute dsn-hero-parallax-img over-hidden z-index-1 full-width"
             data-dsn-ajax="img"
             data-overlay="4"
           >
             <img
               class="cover-bg-img transform-3d"
-              src="assets/img/portfolio/realestate/homes.png"
+              src="assets/img/portfolio/mountainpass/pass.png"
               alt=""
+              data-dsn-position="50% 50%"
             />
           </div>
 
           <div
             id="hero_content"
-            class="d-flex align-items-end p-relative h-100 dsn-hero-parallax-title container"
+            class="d-flex p-relative h-100 dsn-hero-parallax-title align-items-center container"
           >
             <div class="content p-relative">
               <div class="intro-project w-100">
@@ -204,20 +205,40 @@
                     id="dsn_metas"
                     class="p-relative d-flex justify-content-between"
                   >
-                    <div class="metas has-separate p-relative mb-10">
-                      <span>UX | Architecture | Development | Deployment</span>
-                    </div>
+                    <!-- <div class="metas has-separate p-relative mb-10">
+                      <span>Photography</span>
+                    </div> -->
                   </div>
                   <div id="hero_title">
-                    <h1 class="title" data-dsn-ajax="title">
-                      REAL ESTATE SALES APP
-                    </h1>
+                    <h1 class="title" data-dsn-ajax="title">COMING SOON</h1>
                   </div>
+                  <p class="subtitle-meta metas p-relative mt-10">
+                    <!-- <b>Photographer : </b> Daniel Jaramillo -->
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+
+        <a
+          class="background-main move-circle link-project p-absolute"
+          data-dsn="parallax"
+          href="#"
+          target="_blank"
+          rel="nofollow"
+        >
+          VISIT SITE
+          <svg
+            viewBox="0 0 1024 1024"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M213.333333 750.506667L665.173333 298.666667H384V213.333333h426.666667v426.666667h-85.333334V358.826667L273.493333 810.666667 213.333333 750.506667z"
+            />
+          </svg>
+        </a>
         <a
           href="#page_wrapper"
           rel="nofollow"
@@ -230,236 +251,266 @@
       <!-- ========== End Header  ========== -->
       <div id="page_wrapper" class="wrapper">
         <!-- ========== Info Project  ========== -->
-        <div class="info-project background-section pb-section pt-40">
-          <div class="container text-center">
-            <h2 class="title-h2 dsn-up">ABOUT THE PROJECT</h2>
-            <p class="max-w750 mt-30 dsn-up">
-              At a previous role, my focus was to overhaul a fragile legacy
-              system that was responsible for managing thousands of real estate
-              transactions every year. Unlike traditional real estate
-              brokerages, our small team exclusively sold newly built single
-              family homes across the country for some of the nations biggest
-              builders such as D.R. Horton. In an industry that is heavily
-              regulated at a regionally specific level, managing the moving
-              pieces across so many transations and markets was no small task.
-            </p>
-            <ul class="intro-project-list mt-30 d-grid grid-md-3">
-              <li class="dsn-up grid-item number-item">
-                <h5 class="title-list-project sm-title-block">Role</h5>
-                <p class="description-list-project dsn-auto">
-                  Lead Frontend Developer
-                </p>
-              </li>
+        <!-- <div class="info-project container text-center section-margin">
+          <ul class="intro-project-list mt-30 d-grid grid-md-3 text-sm-left">
+            <li class="dsn-up grid-item number-item">
+              <h5 class="title-list-project sm-title-block">Service</h5>
+              <p class="description-list-project dsn-auto">Photographer</p>
+            </li>
 
-              <li class="dsn-up grid-item number-item">
-                <h5 class="title-list-project sm-title-block">Tech stack</h5>
-                <p class="description-list-project dsn-auto">
-                  TypeScript | React | Redux | Next | Material UI | Azure
-                </p>
-              </li>
+            <li class="dsn-up grid-item number-item">
+              <h5 class="title-list-project sm-title-block">Industry</h5>
+              <p class="description-list-project dsn-auto">Daniel Jaramillo</p>
+            </li>
 
-              <li class="dsn-up grid-item number-item">
-                <h5 class="title-list-project sm-title-block">Delivered</h5>
-                <p class="description-list-project dsn-auto">August, 2022</p>
-              </li>
-            </ul>
-          </div>
-        </div>
+            <li class="dsn-up grid-item number-item">
+              <h5 class="title-list-project sm-title-block">Published</h5>
+              <p class="description-list-project dsn-auto">June 15th 2022</p>
+            </li>
+          </ul>
+        </div> -->
         <!-- ========== End Info Project  ========== -->
 
-        <!-- ========== Parallax Image  ========== -->
-        <div class="p-relative mb-section">
-          <div class="dsn-bg-mask h-50 top-0 background-section"></div>
-          <div class="dsn-container over-hidden">
-            <div
-              class="img-box-parallax dsn-animate dsn-effect-down h-v-80"
-              data-dsn-triggerhook="bottom"
-              data-dsn-grid="move-up"
-            >
-              <img
-                class="cover-bg-img has-direction"
-                src="./assets/img/portfolio/realestate/dashboard.png"
-                alt="cummins-project"
-              />
-              <div class="cap">
-                <span>Design Demonstration: client privacy constraints.</span>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ========== End Parallax Image  ========== -->
-
-        <!-- ========== Paragraph  ========== -->
-        <div class="container section-margin text-center">
-          <p class="title-block dsn-up max-w750">
-            The team had previously been using Netsuite to manage everything.
-            Alongside the backend team, we created a series of API endpoints
-            that could keep the current database in place, while allowing us to
-            split the frontend into a Microservice style Architecture. This
-            approach allowed us to build a dashboard and iteratively build new
-            services to independently tackle the various problems we faced.
-          </p>
-        </div>
-        <!-- ========== End Paragraph  ========== -->
-
-        <!-- ========== Tow Image Popup  ========== -->
-        <div class="dsn-container p-relative mb-section">
-          <div
-            class="d-grid grid-sm-2 align-items-center"
-            data-dsn-gap="80px 40px"
-          >
-            <div
-              class="p-relative img-box-parallax before-z-index has-popup"
-              data-dsn="parallax"
-            >
-              <div
-                class="effect-popup before-z-index h-v-70"
-                data-src="assets/img/portfolio/realestate/dashboard2.png"
-                data-caption="Storybook example"
-                data-fancybox="_1"
-                data-cursor="open"
-                data-dsn-overlay="0"
-              >
-                <img
-                  class="cover-bg-img align-img-left"
-                  src="assets/img/portfolio/realestate/dashboard2.png"
-                  alt=""
-                />
-              </div>
-              <div class="cap">
-                <span
-                  >MUI Dashboard Demonstration: client privacy
-                  constraints.</span
-                >
-              </div>
-            </div>
-            <div
-              class="p-relative img-box-parallax before-z-index has-popup"
-              data-dsn="parallax"
-            >
-              <div
-                class="effect-popup before-z-index h-v-80"
-                data-src="assets/img/portfolio/realestate/mui-code.png"
-                data-caption="MUI Example"
-                data-fancybox="_1"
-                data-cursor="open"
-                data-dsn-overlay="0"
-              >
-                <img
-                  class="cover-bg-img align-img-left"
-                  src="assets/img/portfolio/realestate/mui-code.png"
-                  alt=""
-                />
-              </div>
-              <div class="cap">
-                <span
-                  >Material UI Demonstration: client privacy constraints.</span
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ========== End Tow Image Popup  ========== -->
-
         <!-- ========== Parallax Image With Popup  ========== -->
-        <!-- <div class="dsn-container over-hidden section-margin">
+        <!-- <div class="over-hidden section-margin">
           <div
-            class="img-box-parallax dsn-animate dsn-effect-down has-popup h-v-80"
+            class="img-box-parallax dsn-animate dsn-effect-down has-popup"
             data-dsn-triggerhook="bottom"
             data-dsn-grid="move-up"
           >
             <div
               class="effect-popup before-z-index h-100"
-              data-src="assets/img/cummins2.jpeg"
-              data-caption="Example App"
+              data-src="assets/img/portfolio/project2/2.jpg"
+              data-caption="Caption #3"
               data-fancybox="_1"
               data-cursor="open"
               data-dsn-overlay="0"
             >
               <img
                 class="cover-bg-img has-direction"
-                src="assets/img/cummins2.jpeg"
-                data-dsn-position="50% 50%"
+                src="assets/img/portfolio/project2/2.jpg"
+                data-dsn-position="50% 0%"
                 alt=""
               />
             </div>
-            <div class="cap">
-              <span>Demonstration: client privacy constraints.</span>
-            </div>
+            <div class="cap"><span>Caption #1</span></div>
           </div>
         </div> -->
         <!-- ========== End Parallax Image With Popup  ========== -->
 
         <!-- ========== Tow Image Popup  ========== -->
-        <!-- <div class="dsn-container p-relative mb-section">
+        <!-- <div class="container p-relative mb-section">
           <div
             class="d-grid grid-sm-2 align-items-center"
-            data-dsn-gap="80px 40px"
+            data-dsn-gap="80px 60px"
           >
-            <div
-              class="p-relative img-box-parallax before-z-index has-popup"
-              data-dsn="parallax"
-            >
+            <div class="p-relative img-box-parallax before-z-index has-popup">
               <div
-                class="effect-popup before-z-index h-v-80"
-                data-src="assets/img/portfolio/project6/5.jpg"
-                data-caption="Caption #5"
+                class="effect-popup before-z-index h-100"
+                data-src="assets/img/portfolio/project2/3.jpg"
+                data-caption="Caption #2"
                 data-fancybox="_1"
                 data-cursor="open"
                 data-dsn-overlay="0"
               >
-                <img
-                  class="cover-bg-img"
-                  src="assets/img/portfolio/project6/5.jpg"
-                  alt=""
-                />
+                <img src="assets/img/portfolio/project2/3.jpg" alt="" />
               </div>
               <div class="cap">
-                <span>Caption #5</span>
+                <span>Caption #2</span>
               </div>
             </div>
-            <div
-              class="p-relative img-box-parallax before-z-index has-popup"
-              data-dsn="parallax"
-            >
+            <div class="p-relative img-box-parallax before-z-index has-popup">
               <div
-                class="effect-popup before-z-index h-v-70"
-                data-src="assets/img/portfolio/project6/6.jpg"
-                data-caption="Caption #6"
+                class="effect-popup before-z-index h-100"
+                data-src="assets/img/portfolio/project2/4.jpg"
+                data-caption="Caption #3"
                 data-fancybox="_1"
                 data-cursor="open"
                 data-dsn-overlay="0"
               >
-                <img
-                  class="cover-bg-img"
-                  src="assets/img/portfolio/project6/6.jpg"
-                  alt=""
-                />
+                <img src="assets/img/portfolio/project2/4.jpg" alt="" />
               </div>
               <div class="cap">
-                <span>Caption #6</span>
+                <span>Caption #3</span>
               </div>
             </div>
           </div>
         </div> -->
         <!-- ========== End Tow Image Popup  ========== -->
 
-        <!-- ========== Paragraph  ========== -->
-        <div class="container section-margin text-center">
-          <p class="title-block max-w750">
-            As we built out new services, I worked closely with the team to test
-            new features and iterate designs to keep our workflow optimal. The
-            project used Azure to manage our API's, deployment pipeline, and
-            authentication. The frontend was built in TypeScript and React on
-            the Next.JS framework. Design was a low priority as this project was
-            internal, so we used Material UI for our component library.
-          </p>
-          <!-- <h5 class="title-block dsn-up mt-15">Richard Price</h5> -->
-        </div>
-        <!-- ========== End Paragraph  ========== -->
+        <!-- ========== Right Box With Image  ========== -->
+        <!-- <div
+          class="right-box-image section-margin dsn-container dsn-left-container over-hidden"
+        >
+          <div class="box-img">
+            <div
+              class="img-box-parallax h-v-80 w-100 before-z-index dsn-animate dsn-effect-left"
+              data-dsn-triggerhook="bottom"
+              data-dsn-grid="move-up"
+              data-overlay="1"
+            >
+              <img
+                src="assets/img/portfolio/project2/5.jpg"
+                class="cover-bg-img has-direction"
+                data-dsn-position="50% 0%"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="box-info background-section box-padding section-margin"
+            data-dsn-gap="30px 30px"
+          >
+            <h2 class="title-h2">How is your <br />visual identity?</h2>
+            <p class="mt-20 pt-20 border-top">
+              we give fashion forward men, quick access to the finest,
+              premium-quality, designer clothes for men. Not only that, our
+              online selection is comprised of versatile.
+            </p>
+            <ul class="d-grid dsn-list mt-20" data-dsn-gap="10px">
+              <li class="list-item background-main border-rdu">
+                <span class="dsn-icon mr-15"
+                  ><i class="fas fa-check" aria-hidden="true"></i
+                ></span>
+                <p class="dsn-heading-title heading-color">
+                  Beautiful and easy to understand UI
+                </p>
+              </li>
+              <li class="list-item background-main border-rdu">
+                <span class="dsn-icon mr-15"
+                  ><i class="fas fa-check" aria-hidden="true"></i
+                ></span>
+                <p class="dsn-heading-title heading-color">
+                  Theme advantages are pixel perfect design
+                </p>
+              </li>
+              <li class="list-item background-main border-rdu">
+                <span class="dsn-icon mr-15"
+                  ><i class="fas fa-check" aria-hidden="true"></i
+                ></span>
+                <p class="dsn-heading-title heading-color">
+                  Present your services with flexible
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+        <!-- ========== End Right Box With Image  ========== -->
+
+        <!-- ========== Swiper Image  ========== -->
+        <!-- <div
+          class="dsn-container dsn-right-container over-hidden background-section section-padding section-margin dsn-swiper"
+          data-dsn-option='{"spaceBetween":30,"slidesPerView" :2.5 , "centeredSlides":false}'
+        >
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide over-hidden background-transparent">
+                <div class="item-img">
+                  <div class="img-box-parallax before-z-index">
+                    <img
+                      src="assets/img/portfolio/project2/6.jpg"
+                      class="cover-bg-img"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide over-hidden background-transparent">
+                <div class="item-img">
+                  <div class="img-box-parallax before-z-index">
+                    <img
+                      src="assets/img/portfolio/project2/7.jpg"
+                      class="cover-bg-img"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide over-hidden background-transparent">
+                <div class="item-img">
+                  <div class="img-box-parallax before-z-index">
+                    <img
+                      src="assets/img/portfolio/project2/8.jpg"
+                      class="cover-bg-img"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide over-hidden background-transparent">
+                <div class="item-img">
+                  <div class="img-box-parallax before-z-index">
+                    <img
+                      src="assets/img/portfolio/project2/9.jpg"
+                      class="cover-bg-img"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="dsn-swiper-paginate d-flex p-relative w-100 h-100 mt-30 align-items-center dsn-container justify-content-between"
+          >
+            <div class="swiper-prev">
+              <div class="prev-container">
+                <div class="container-inner">
+                  <div class="triangle"></div>
+                  <svg
+                    class="circle"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      class="circle-wrap"
+                      fill="none"
+                      stroke-width="1"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                    >
+                      <circle cx="12" cy="12" r="10.5"></circle>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div
+              class="swiper-pagination mr-30 ml-30 heading-color"
+              data-dsn-type="bullets"
+            ></div>
+            <div class="swiper-next">
+              <div class="next-container">
+                <div class="container-inner">
+                  <div class="triangle"></div>
+                  <svg
+                    class="circle"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <g
+                      class="circle-wrap"
+                      fill="none"
+                      stroke-width="1"
+                      stroke-linejoin="round"
+                      stroke-miterlimit="10"
+                    >
+                      <circle cx="12" cy="12" r="10.5"></circle>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- ========== End Swiper Image  ========== -->
 
         <!-- ========== Next Project  ========== -->
-        <div
+        <!-- <div
           class="next-project section-padding p-relative footer-animate svg-animate"
         >
           <svg
@@ -479,11 +530,11 @@
           <div
             data-dsn-ajax="img"
             class="p-absolute dsn-hero-parallax-img transform-3d bg-container over-hidden"
-            data-overlay="4"
+            data-overlay="2"
           >
             <img
               class="cover-bg-img wp-post-image"
-              src="assets/img/portfolio/realestate/neighborhood.jpg"
+              src="assets/img/portfolio/project3/1.jpg"
               alt=""
               data-dsn-position="50% 50%"
             />
@@ -495,24 +546,23 @@
               <div class="intro-project w-100">
                 <div class="intro-title text-center">
                   <div class="metas has-separate p-relative mb-10">
-                    <!-- <span>Creative</span>
-                    <span>Photography</span> -->
+                    <span>Photography</span>
                   </div>
 
                   <div class="hero-title fill-text">
                     <a
-                      href="contact.html"
+                      href="project-3.html"
                       class="d-inline-block effect-ajax"
                       data-dsn-ajax="next"
                     >
-                      <h2 class="title">CONTACT ME</h2>
+                      <h2 class="title">AUDI RS</h2>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
         <!-- ========== End Next Project  ========== -->
       </div>
     </main>
@@ -528,41 +578,29 @@
     >
       <ul class="socials d-flex flex-column-reverse">
         <li style="--dsn-index-animate: 0">
-          <a
-            href="https://www.facebook.com/ryan.evans.92372"
-            target="_blank"
-            rel="nofollow"
-          >
-            <i class="fab fa-facebook-f" aria-hidden="true"></i>
-            <span>Facebook</span>
+          <a href="#0" target="_blank" rel="nofollow">
+            <i class="fab fa-facebook-f" aria-hidden="true"></i> <span>Fb</span>
           </a>
         </li>
         <li style="--dsn-index-animate: 1">
-          <a href="./assets/img/ryan-evans-resume.pdf" download target="_blank">
-            <i class="fab fa-wpforms" aria-hidden="true"></i><span>Resume</span>
+          <a href="#0" target="_blank" rel="nofollow">
+            <i class="fab fa-instagram" aria-hidden="true"></i
+            ><span>Instagram</span>
           </a>
         </li>
         <li style="--dsn-index-animate: 2">
-          <a
-            href="https://github.com/ryanevans253"
-            target="_blank"
-            rel="nofollow"
-          >
-            <i class="fab fa-github" aria-hidden="true"></i><span>GitHub</span>
+          <a href="#0" target="_blank" rel="nofollow">
+            <i class="fab fa-twitter" aria-hidden="true"></i><span>Tw</span>
           </a>
         </li>
         <li style="--dsn-index-animate: 3">
-          <a
-            href="https://www.linkedin.com/in/ryanwilliamevans/"
-            target="_blank"
-            rel="nofollow"
-          >
+          <a href="#0" target="_blank" rel="nofollow">
             <i class="fab fa-linkedin-in" aria-hidden="true"></i
-            ><span>LinkedIn</span>
+            ><span>Linkedin</span>
           </a>
         </li>
       </ul>
-      <div class="icon">FOLLOW ME</div>
+      <div class="icon">FOLLOW US</div>
     </div>
     <!-- ========== End Social ========== -->
 

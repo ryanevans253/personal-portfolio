@@ -44,7 +44,7 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
 :root .v-light-head {
   --bg-color: #f9f9f9;
   --assistant-color: #efefef;
-  --theme-color: #e4dcd3;
+  --theme-color: #ffffff;
   --theme-color-font: #fff;
   --font-color: #0009;
   --heading-color: #000;
@@ -63,7 +63,7 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
 :root .v-dark-head {
   --bg-color: #131313;
   --assistant-color: #191919;
-  --theme-color: #e4e4dd;
+  --theme-color: #fff;
   --font-color: #ddd;
   --heading-color: #fff;
   --border-color: #ffffff1a;
@@ -84,7 +84,7 @@ Template Name: BlackDsn - Ajax Portfolio HTML Template
   .v-dark-head-mobile {
     --bg-color: #131313;
     --assistant-color: #191919;
-    --theme-color: #e4e4dd;
+    --theme-color: ##fff;
     --font-color: #ddd;
     --heading-color: #fff;
     --border-color: #ffffff1a;
@@ -3747,7 +3747,7 @@ a:active {
 .dsn-form .dsn-def-btn > .w-auto {
   justify-content: center;
 }
-.dsn-form input[type="submit"] {
+.dsn-form button[type="submit"] {
   position: relative;
   font-size: 13px;
   line-height: 16px;
