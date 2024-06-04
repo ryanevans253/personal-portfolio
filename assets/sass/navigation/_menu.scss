@@ -1,4 +1,3 @@
-
 .site-header {
   position: fixed;
   top: 0;
@@ -15,7 +14,6 @@
     align-items: center;
   }
 
-
   .dsn-svg-transition {
     fill: $assistant-color;
   }
@@ -24,7 +22,6 @@
     opacity: 0;
     visibility: hidden;
     z-index: -1;
-
   }
 
   .bg-load {
@@ -50,15 +47,10 @@
     margin-bottom: 0;
     flex-wrap: wrap;
 
-
     ul {
       position: absolute;
-
     }
-
-
   }
-
 
   @include media_991(min) {
     &:not(.dsn-hamburger) {
@@ -70,7 +62,6 @@
     }
   }
 
-
   &.dsn-hamburger {
     @import "menu/hamburger";
   }
@@ -80,19 +71,21 @@
   }
 
   @import "menu/scroll_nav";
-
 }
 
-
-.main-brand, .dsnload__img {
-
+.main-brand,
+.dsnload__img {
   img {
     width: 80px;
     max-width: 100%;
     height: auto;
+    margin-left: 20px;
   }
 
-  .v-light #site_menu_header &, #dsn_footer.v-light &, &, .v-light #dsn_footer:not(.v-light , .v-dark) & {
+  .v-light #site_menu_header &,
+  #dsn_footer.v-light &,
+  &,
+  .v-light #dsn_footer:not(.v-light, .v-dark) & {
     .logo-dark {
       display: block;
     }
@@ -102,7 +95,9 @@
     }
   }
 
-  .v-dark #site_menu_header &, #dsn_footer.v-dark &, .v-dark #dsn_footer:not(.v-light , .v-dark) & {
+  .v-dark #site_menu_header &,
+  #dsn_footer.v-dark &,
+  .v-dark #dsn_footer:not(.v-light, .v-dark) & {
     .logo-dark {
       display: none;
     }

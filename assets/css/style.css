@@ -1531,6 +1531,7 @@ a:active {
   width: 80px;
   max-width: 100%;
   height: auto;
+  margin-left: 20px;
 }
 .v-light #site_menu_header .main-brand .logo-dark,
 #dsn_footer.v-light .main-brand .logo-dark,
